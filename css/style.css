@@ -306,7 +306,7 @@ textarea {
         margin: 0 5%;
     }
     section {
-        margin-top: 70px;
+        margin-top: 50px;
     }
 
     .skill-container,
@@ -336,7 +336,7 @@ textarea {
     }
 
     nav li {
-        margin-left: 7px;
+        margin-left: 6px;
     }
 .primary-btn, .contact-btn{
     height: 30px;
@@ -406,4 +406,45 @@ textarea {
         gap: 0;
         margin: 8px;
     }
+
+      /* --------------NAV style----------- */
+      nav {
+        padding: 25px 32px;
+    }
+
+    .logo {
+        font-size: 37px;
+    }
+
+    nav li {
+        margin-left: 23px;
+    }
+
+    .contact-btn{
+    margin: 18px 0;
+}
+
+    /* banner style */
+    .banner-img{
+        width: 100%;
+    }
+    .header {
+        background-size: 56%, contain;
+    }
+
+    .banner {
+        margin: 0 0 0 75px;
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+
+    .banner-title {
+        font-size: 33px;
+        margin-bottom: 3ox;
+    }
+
+    .banner-sub-title {
+        font-size: 27px;
+    }
+
 }
