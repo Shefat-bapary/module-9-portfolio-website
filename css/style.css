@@ -305,6 +305,9 @@ textarea {
     main {
         margin: 0 5%;
     }
+    section {
+        margin-top: 70px;
+    }
 
     .skill-container,
     .resume-content,
