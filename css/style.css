@@ -86,6 +86,9 @@ nav li a {
     font-size: 16px;
 }
 
+.banner-img {
+    margin-bottom: -5px;
+}
 .contact-btn {
     color: #FD6E0A;
     background-color: #fff;
@@ -317,6 +320,9 @@ textarea {
         margin: 8px;
     }
 
+    .section-description{
+        font-size: 12px;
+    }
     /* --------------NAV style----------- */
     nav {
         padding: 20px 27px;
@@ -336,6 +342,9 @@ textarea {
     font-weight: 200;
     white-space: nowrap;
 }
+.contact-btn{
+    margin: 18px 0;
+}
 
     /* banner style */
     .banner-img{
@@ -349,10 +358,11 @@ textarea {
         margin: 0 0 0 50px;
         display: grid;
         grid-template-columns: 60% 40%;
+        align-items: end;
     }
 
     .banner-title {
-        font-size: 32px;
+        font-size: 28px;
         margin-bottom: 3ox;
     }
 
