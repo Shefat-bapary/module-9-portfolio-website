@@ -1,0 +1,396 @@
+* {
+    margin: 0px;
+    font-family: "Open Sans";
+}
+
+/* .primary product */
+.primary-color {
+    color: #FD6E0A;
+}
+
+.primary-btn {
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #fff;
+    border: 0;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+section {
+    margin-top: 130px;
+}
+
+
+
+/* --------------NAV style----------- */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 160px;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/* banner style */
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    background-size: auto, contain;
+}
+
+.banner {
+    margin: 0 60px 0 160px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 67px;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.banner-discripsion {
+    margin: 20px 0;
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+}
+
+.contact-btn {
+    color: #FD6E0A;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    height: 50px;
+    padding: 0 20px;
+    margin-left: 22px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+
+
+
+/* Main section style  */
+main {
+    max-width: 985px;
+    margin: 0 auto;
+}
+
+
+
+/* About me style ////////// */
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 11% 10%;
+    text-align: center;
+}
+
+/* primary section title */
+.section-title {
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-description {
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .about-info-title {
+    font-size: 17px;
+    color: var(--Dark-03, #757575);
+    margin-top: 26px;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+/* whais i do sytle  */
+
+.what-i-do-title-and-dec {
+    text-align: center;
+    padding: 0 5%;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 18px;
+}
+
+.skill {
+    padding: 4%;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    margin-top: 26px;
+    margin-bottom: 21px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.skill-des {
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+}
+
+
+/* Resume style   */
+
+.resume-content {
+    display: flex;
+    gap: 30px;
+}
+
+.resume-sub-title {
+    margin-top: 23px;
+    font-size: 20px;
+}
+
+.resume-des {
+    margin: 20px 0;
+}
+
+/* education in parsent */
+.education {
+    text-align: left;
+}
+
+.education-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.garap-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 0;
+}
+
+.box-1 {
+    border: 4px solid orange;
+    border-radius: 30px;
+}
+
+.box-2 {
+    border: 4px solid #F3F3F3;
+    border-radius: 30px;
+}
+
+.web-design-g {
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+.html-css-g {
+    display: grid;
+    grid-template-columns: 95% 5%;
+}
+
+.js-g {
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.react-g {
+    display: grid;
+    grid-template-columns: 99% 1%;
+}
+
+.angular-g {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.bootstrap-g {
+    display: grid;
+    grid-template-columns: 88% 12%;
+}
+
+.center-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+/* footer styles */
+footer .fa-brands {
+    color: #FD6E0A;
+    margin-right: 5px;
+}
+
+.contact {
+    background: #FFF8F3;
+    display: flex;
+    gap: 100px;
+    padding: 10%;
+}
+
+.contact .section-title {
+    text-align: left;
+}
+
+.contact .section-description {
+    margin: 11px 0;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 23px;
+    border: 0;
+    width: 80%;
+    padding: 18px 30px;
+    border-radius: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+/* ----------------------------Media style ------------- */
+
+@media screen and (max-width : 576px) {
+    main {
+        margin: 0 5%;
+    }
+
+    .skill-container,
+    .resume-content,
+    .about-info-container,
+    .contact {
+        flex-direction: column;
+    }
+
+    /* group style for mobile */
+    .education-section {
+        grid-template-columns: 1fr;
+        gap: 0;
+        margin: 8px;
+    }
+
+    /* --------------NAV style----------- */
+    nav {
+        padding: 20px 27px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    nav li {
+        margin-left: 7px;
+    }
+.primary-btn, .contact-btn{
+    height: 30px;
+    padding: 0 10px;
+    font-size: 10px;
+    font-weight: 200;
+    white-space: nowrap;
+}
+
+    /* banner style */
+    .banner-img{
+        width: 100%;
+    }
+    .header {
+        background-size: 56%, contain;
+    }
+
+    .banner {
+        margin: 0 0 0 50px;
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+
+    .banner-title {
+        font-size: 32px;
+        margin-bottom: 3ox;
+    }
+
+    .banner-sub-title {
+        font-size: 22px;
+    }
+
+    .banner-discripsion {
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width: 577px) and (max-width : 992px) {
+    main {
+        margin: 0 5%;
+    }
+
+    /* skill style for mobile   */
+    .skill-container {
+        flex-wrap: wrap;
+    }
+
+    .skill {
+        width: 35%;
+    }
+
+    /* resume style  mobile */
+    .resume-content {
+        flex-direction: column;
+    }
+
+
+    /* group style for mobile */
+    .education-section {
+        grid-template-columns: 1fr;
+        gap: 0;
+        margin: 8px;
+    }
+}
