@@ -316,7 +316,9 @@ textarea {
         gap: 0;
         margin: 8px;
     }
-
+    .section-description{
+        font-size: 12px;
+    }
     /* --------------NAV style----------- */
     nav {
         padding: 20px 27px;
