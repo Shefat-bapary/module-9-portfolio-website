@@ -352,7 +352,6 @@ textarea {
         margin: 0 0 0 50px;
         display: grid;
         grid-template-columns: 60% 40%;
-        height: 100%;
     }
 
     .banner-title {
